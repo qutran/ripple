@@ -21,5 +21,5 @@
   }
 </style>
 
-<div use:ripple={{ duration: 1000, unbounded: true }} class="rect" />
-<div use:ripple={{ color: 'red', unbounded: true }} class="polygon" />
+<div use:ripple class="rect" />
+<div use:ripple={{ color: 'red' }} class="polygon" />
