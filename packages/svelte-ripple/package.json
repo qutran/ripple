@@ -1,0 +1,12 @@
+{
+  "name": "svelte-ripple",
+  "version": "1.0.0",
+  "description": "",
+  "module": "index.js",
+  "typings": "typings.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
