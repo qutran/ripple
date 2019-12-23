@@ -5,7 +5,7 @@ export function useRippleRef({
   duration = 450,
   color = 'rgba(0, 0, 0, 0.1)',
   unbounded = false,
-}) {
+} = {}) {
   const ref = useRef(null);
 
   useLayoutEffect(

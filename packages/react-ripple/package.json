@@ -9,6 +9,9 @@
   },
   "author": "",
   "license": "ISC",
+  "peerDependencies": {
+    "react": "16.*"
+  },
   "dependencies": {
     "base-ripple": "file:../base-ripple"
   }
