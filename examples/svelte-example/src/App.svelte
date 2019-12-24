@@ -14,12 +14,15 @@
   }
 
   .rect {
-    background: #29b6f6;
-    border-radius: 20px;
-    width: 100px;
-    height: 100px;
+    background: #fff;
+    /* background: #29b6f6; */
+    /* border-radius: 20px; */
+    width: 500px;
+    height: 500px;
+    box-shadow: 0px 8px 24px rgba(66, 82, 110, 0.1);
+    border: 1px solid red;
   }
 </style>
 
-<div use:ripple class="rect" />
+<div use:ripple={{ color: 'rgba(0,0,0,0.2)', unbounded: true }} class="rect" />
 <div use:ripple={{ color: 'red' }} class="polygon" />

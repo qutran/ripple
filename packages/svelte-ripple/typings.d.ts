@@ -5,4 +5,4 @@ interface ActionOutput {
   destroy: Function;
 }
 
-export function ripple(node: HTMLElement, options: IOptions): unknown;
+export function ripple(node: HTMLElement, options: IOptions): ActionOutput;

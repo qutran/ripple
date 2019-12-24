@@ -5,6 +5,7 @@ export function ripple(node, options) {
 
   return {
     update: options => {
+      destroyContainer();
       destroyContainer = createRippleContainer(node, options);
     },
     destroy() {
