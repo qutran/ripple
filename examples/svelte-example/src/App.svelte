@@ -1,5 +1,6 @@
 <script>
   import { ripple } from 'svelte-ripple';
+  let unbounded;
 </script>
 
 <style>
@@ -24,5 +25,6 @@
   }
 </style>
 
-<div use:ripple={{ color: 'rgba(0,0,0,0.2)', unbounded: true }} class="rect" />
+<input type="checkbox" bind:checked={unbounded} />
+<div use:ripple={{ color: 'rgba(0,0,0,0.2)', unbounded }} class="rect" />
 <div use:ripple={{ color: 'red' }} class="polygon" />

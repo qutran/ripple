@@ -88,6 +88,7 @@ export function createRippleContainer(node, options = {}) {
   }
 
   return function onDestroy() {
+    node.classList.remove('ripple-container-unbounded');
     node.removeEventListener('touchstart', onStart);
     node.removeEventListener('mousedown', onStart);
   };
